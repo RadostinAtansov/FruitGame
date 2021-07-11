@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\apple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Images\banana.png" />
+    <None Include="wwwroot\Images\dynamite.png" />
+    <None Include="wwwroot\Images\empty.png" />
+    <None Include="wwwroot\Images\explosion.png" />
+    <None Include="wwwroot\Images\kiwi.png" />
+    <None Include="wwwroot\Images\orange.png" />
+  </ItemGroup>
+
+</Project>
